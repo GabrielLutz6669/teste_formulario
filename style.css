@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    margin: 5% 20%;
+    background-color: #D8F0C0;
+}
+
+.formulario {
+    padding: 5%;
+    border: 3px solid #8D918B;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 350px;
+    background-color: #D6FFB7;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.formulario__resposta {
+    text-align: center;
+    background-color: #D6FFB7;
+    border: 3px solid #8D918B;
+    padding: 2%;
+    font-weight: 400;
+}
+
+.formulario__submit {
+    background-color: #D6FFB7;
+    border: 3px solid #8D918B;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formulario__submit:hover {
+    border: 3px solid #fff;
+    padding: 1%;
+    font-weight: 600;
+}

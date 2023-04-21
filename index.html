@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body class="caixa">
+    <form class="formulario" action="processa_dados.php" method="post">
+        <label class="formulario__texto">Nome completo</label>
+        <br> <!-- Quebra de linha -->
+        <input class="formulario__resposta" type="text">
+        <br> <!-- Quebra de linha -->
+        <label class="formulario__texto">Digite seu elogio</label>
+        <br> <!-- Quebra de linha -->
+        <textarea class="formulario__resposta"></textarea>
+        <br> <!-- Quebra de linha -->
+        <label class="formulario__texto">Data de nascimento:</label>
+        <br>
+        <input class="formulario__resposta" type="date" name="nascimento">
+        <br>
+        <button class="formulario__submit" type="submit" name="acao">Enviar</button>
+    </form>
+</body>
+</html>
